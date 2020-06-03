@@ -134,6 +134,7 @@ aside {
 #aside-title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .thumbnail-container {
   margin-bottom: 0.4rem;
@@ -151,6 +152,9 @@ aside {
 .thumbnail-text {
   font-size: 0.8rem;
   color: grey;
+}
+p img {
+  margin-left: 1rem;
 }
 #first-video {
   border-bottom: 1px solid grey;
