@@ -8,22 +8,42 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="d-flex">
         <a href="http://www.youtube.com">
           <img src="images/youtube.png" alt="youtube-icon" />
         </a>
         <form>
-          <input type="text" id="search-field" />
-          <button type="submit">Search</button>
+          <input type="text" id="search-field" placeholder="search" />
+          <button id="search-btn" type="submit">Search</button>
         </form>
 
-        <div id="nav-links-container">
-          <img src="images/video-camera.png" alt="video-camera" />
-          <img src="images/menu.png" alt="menu" />
-          <img src="images/notification.png" alt="notification" />
-          <img src="images/user.png" alt="user" />
+        <div id="nav-links-container" class="d-flex">
+          <img
+            class="nav-icons"
+            src="images/video-camera.png"
+            alt="video-camera"
+          />
+          <img class="nav-icons" src="images/menu.png" alt="menu" />
+          <img
+            class="nav-icons"
+            src="images/notification.png"
+            alt="notification"
+          />
+          <img id="avatar" class="nav-icons" src="images/user.png" alt="user" />
         </div>
       </nav>
     </header>
+    <main>
+      <section id="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/V74l_zS1x8E"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+    </main>
   </body>
 </html>

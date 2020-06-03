@@ -14,10 +14,46 @@ li {
 a {
   text-decoration: none;
 }
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Navigation Styles */
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Form Styles */
+#search-field {
+  width: 30rem;
+  padding: 0.5rem;
+}
+#search-field:hover {
+  border: 1px solid blue;
+}
+#search-btn {
+  padding: 0.5rem;
+  width: 6rem;
+  background: #d3d3d3;
+}
+
+.nav-icons {
+  margin-right: 1.5rem;
+}
+#avatar {
+  margin-right: 0;
+}
+
+/* Video-container */
+#video-container {
+  border: 1px solid green;
+  width: 100%;
+  height: 32rem;
+}
+#video-container iframe {
+  width: 100%;
+  height: 100%;
 }
