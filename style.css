@@ -61,13 +61,15 @@ nav {
 
 /*Main Styles */
 #main-container {
-  padding: 2rem;
+  padding: 2rem 6rem;
   background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Video-container */
 #video-section-wrapper {
-  width: 70%;
+  width: 62%;
 }
 
 #video-container {
@@ -120,4 +122,14 @@ time {
   margin-top: 1rem;
   text-transform: uppercase;
   padding-left: 3.2rem;
+}
+
+/* aside styles */
+aside {
+  width: 30%;
+}
+#aside-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
