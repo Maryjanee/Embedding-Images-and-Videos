@@ -1,1 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Navigation Styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
