@@ -61,7 +61,7 @@ nav {
 /*Main Styles */
 #main-container {
   padding: 2rem 6rem;
-  background-color: #f5f5f5;
+
   display: flex;
   justify-content: space-between;
 }
