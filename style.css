@@ -47,10 +47,18 @@ nav {
   margin-right: 0;
 }
 
+
+/*Main Styles */
+#main-container{
+
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
 /* Video-container */
 #video-container {
   border: 1px solid green;
-  width: 100%;
+  width: 70%;
   height: 32rem;
 }
 #video-container iframe {
