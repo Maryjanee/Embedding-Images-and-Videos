@@ -30,9 +30,6 @@ h6 {
   margin: 1rem 0;
   font-weight: 400;
 }
-p {
-  font-size: 0.8rem;
-}
 
 /* Navigation Styles */
 nav {
@@ -101,14 +98,26 @@ time {
   padding: 0.9rem;
   margin-right: 1rem;
 }
-#subscribe-btn{
-  padding:0.6rem 1.3rem;
+#subscribe-btn {
+  padding: 0.6rem 1.3rem;
   background-color: #c00;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
   border-radius: 0.5rem;
-  border:0;
+  border: 0;
 }
-#tags-videos{
-  margin-left: 3.2rem;
+#tags-videos {
+  padding: 0 3.2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+#video-description {
+  margin: 1.2rem 0;
+}
+#show {
+  color: grey;
+  display: block;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  padding-left: 3.2rem;
 }
