@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* General styles */
@@ -19,6 +19,19 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0;
+  font-weight: 400;
+}
+p {
+  font-size: 0.8rem;
 }
 
 /* Navigation Styles */
@@ -41,26 +54,25 @@ nav {
   background: #d3d3d3;
 }
 
-.nav-icons {
+.icons {
   margin-right: 1.5rem;
+  width: 24px;
 }
 #avatar {
   margin-right: 0;
 }
 
-
 /*Main Styles */
-#main-container{
-
+#main-container {
   padding: 2rem;
   background-color: #f5f5f5;
 }
 
 /* Video-container */
-#video-section-wrapper{
+#video-section-wrapper {
   width: 70%;
-
 }
+
 #video-container {
   border: 1px solid green;
   width: 100%;
@@ -69,4 +81,23 @@ nav {
 #video-container iframe {
   width: 100%;
   height: 100%;
+}
+#views {
+  color: grey;
+  font-size: 0.9rem;
+}
+time {
+  margin-left: 0.3rem;
+}
+
+#title-container {
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 0.9rem;
+}
+
+#profile-icon {
+  background: greenyellow;
+  border-radius: 50%;
+  padding: 0.9rem;
+  margin-right: 1rem;
 }

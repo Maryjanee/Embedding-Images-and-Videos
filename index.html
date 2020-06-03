@@ -18,47 +18,65 @@
         </form>
 
         <div id="nav-links-container" class="d-flex">
-          <img
-            class="nav-icons"
-            src="images/video-camera.png"
-            alt="video-camera"
-          />
-          <img class="nav-icons" src="images/menu.png" alt="menu" />
-          <img
-            class="nav-icons"
-            src="images/notification.png"
-            alt="notification"
-          />
-          <img id="avatar" class="nav-icons" src="images/user.png" alt="user" />
+          <img class="icons" src="images/video-camera.png" alt="video-camera" />
+          <img class="icons" src="images/menu.png" alt="menu" />
+          <img class="icons" src="images/notification.png" alt="notification" />
+          <img id="avatar" class="icons" src="images/user.png" alt="user" />
         </div>
       </nav>
     </header>
     <main id="main-container" class="d-flex">
       <section id="video-section-wrapper">
-      <section id="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/V74l_zS1x8E"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope;
+        <section id="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;
           picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
-      <section>
-        <div id="title-container">
-          <h1> Contributing to Open Source Part I: The Easy Way </h1>
-         <p> 57 231 vues• <time datetime="2014=02-24">27 February, 2014</time></p> 
-        </div>
-        <div></div>
-      </section>
+            allowfullscreen
+          >
+          </iframe>
+          <section>
+            <div id="title-container">
+              <h1>Contributing to Open Source Part I: The Easy Way</h1>
+              <div class="d-flex">
+                <p id="views">
+                  57 231 vues<time datetime="2014-02-24"
+                    >• 27 February, 2014</time
+                  >
+                </p>
+                <ul class="d-flex">
+                  <li class="icons">
+                    <img src="images/like.png" alt="like" /> 422
+                  </li>
+                  <li class="icons">
+                    <img src="images/dislike.png" alt="dislike" />18
+                  </li>
+                  <li class="icons">
+                    <img src="images/share.png" alt="share" /> share
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="video-description">
+              <div class="d-flex">
+                <div class="video-avatar d-flex">
+                  <p id="profile-icon">T</p>
+                  <div id="name">
+                    <p>The Odin Project</p>
+                    <p>988 subscribers</p>
+                  </div>
+                </div>
+                <button id="subscribe-btn">
+                  subscribe
+                </button>
+              </div>
+            </div>
+          </section>
+        </section>
       </section>
 
-
-      </section>
-      
-      <aside>
-        
-      </aside>
+      <aside></aside>
     </main>
   </body>
 </html>
