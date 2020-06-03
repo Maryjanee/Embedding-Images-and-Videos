@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* Basic resets */
 * {
@@ -28,7 +28,6 @@ h4,
 h5,
 h6 {
   margin: 1rem 0;
-  font-weight: 400;
 }
 
 /* Navigation Styles */
@@ -69,7 +68,7 @@ nav {
 
 /* Video-container */
 #video-section-wrapper {
-  width: 62%;
+  width: 70%;
 }
 
 #video-container {
@@ -92,6 +91,10 @@ time {
 #title-container {
   border-bottom: 0.5px solid grey;
   padding-bottom: 0.9rem;
+}
+
+#title-container h1 {
+  font-weight: 500;
 }
 
 #profile-icon {
@@ -126,10 +129,24 @@ time {
 
 /* aside styles */
 aside {
-  width: 30%;
+  width: 28%;
 }
 #aside-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.thumbnail-description {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+.thumbnail-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+.thumbnail-text {
+  font-size: 0.8rem;
+  color: grey;
 }
