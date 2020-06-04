@@ -11,7 +11,7 @@ This project was created to strengthen knowledge of enmbedding images and videos
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Maryjanee/Embedding-Images-and-Videos)
+[Live Demo Link](https://clever-chandrasekhar-236f07.netlify.app)
 
 ## Getting Started
 
