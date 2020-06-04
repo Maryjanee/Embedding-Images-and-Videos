@@ -99,6 +99,7 @@ time {
 }
 #share {
   border: 0;
+  font-size: 1rem;
 }
 
 #title-container {
@@ -117,12 +118,13 @@ time {
   margin-right: 1rem;
 }
 #subscribe-btn {
-  padding: 0.6rem 1.3rem;
+  padding: 0.8rem 1.3rem;
   background-color: #c00;
   text-transform: uppercase;
   color: #fff;
-  border-radius: 0.2rem;
+  border-radius: 0.15rem;
   border: 0;
+  font-size: 0.9rem;
 }
 #tags-videos {
   padding: 0 3.2rem;
@@ -132,6 +134,16 @@ time {
 #video-description {
   margin: 1.2rem 0;
 }
+.video-icons-container {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.video-icons {
+  width: 1.2rem;
+  margin-right: 0.6rem;
+}
+
 #show {
   color: grey;
   display: block;
@@ -173,12 +185,10 @@ p img {
   border-bottom: 1px solid grey;
   padding-bottom: 0.6rem;
 }
-#title-sub{
+#title-sub {
   font-size: 0.9rem;
   font-weight: bold;
-
 }
-#sub_nom{
+#sub_nom {
   font-size: 0.8rem;
-
 }
