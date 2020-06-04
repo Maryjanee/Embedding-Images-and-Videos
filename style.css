@@ -121,13 +121,13 @@ time {
   background-color: #c00;
   text-transform: uppercase;
   color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   border: 0;
 }
 #tags-videos {
   padding: 0 3.2rem;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 #video-description {
   margin: 1.2rem 0;
@@ -172,4 +172,13 @@ p img {
 #first-video {
   border-bottom: 1px solid grey;
   padding-bottom: 0.6rem;
+}
+#title-sub{
+  font-size: 0.9rem;
+  font-weight: bold;
+
+}
+#sub_nom{
+  font-size: 0.8rem;
+
 }
