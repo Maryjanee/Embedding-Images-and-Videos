@@ -11,7 +11,7 @@ This project was created to strengthen knowledge of enmbedding images and videos
 
 ## Live Demo
 
-[Live Demo Link](https://clever-chandrasekhar-236f07.netlify.app)
+[Live Demo Link](https://boring-babbage-70cb7b.netlify.app)
 
 ## Getting Started
 
