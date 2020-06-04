@@ -9,12 +9,13 @@
   <body>
     <header>
       <nav class="d-flex">
-        <a class="icons" href="http://www.youtube.com">
-          <img src="images/youtube.svg" alt="youtube-icon" />
-        </a>
+        <img id="logo" src="images/youtube.svg" alt="youtube-icon" />
+
         <form>
           <input type="text" id="search-field" placeholder="search" />
-          <button id="search-btn" type="submit">Search</button>
+          <button class="icons" id="search-btn" type="submit">
+            <img id="search" src="images/search.svg" alt="search" />
+          </button>
         </form>
 
         <div id="nav-links-container" class="d-flex">
@@ -45,17 +46,20 @@
                     >• 27 February, 2014</time
                   >
                 </p>
-                <ul class="d-flex">
-                  <li class="icons">
-                    <img src="images/like.svg" alt="like" /> 422
-                  </li>
-                  <li class="icons">
-                    <img src="images/dislike.svg" alt="dislike" />18
-                  </li>
-                  <li class="icons">
-                    <img src="images/share.svg" alt="share" /> share
-                  </li>
-                </ul>
+                <div class="d-flex">
+                  <div class="icons video-icons">
+                    <img src="images/like.svg" alt="like" />
+                    <p>422</p>
+                  </div>
+                  <div class="icons">
+                    <img src="images/dislike.svg" alt="dislike" />
+                    <p>18</p>
+                  </div>
+                  <button id="share" class="icons">
+                    <img src="images/share.svg" alt="share" />
+                    <p>share</p>
+                  </button>
+                </div>
               </div>
             </div>
             <div id="video-description">
@@ -94,7 +98,7 @@
         </div>
         <div class="thumbnail-container">
           <div id="first-video" class="thumbnail d-flex">
-            <img src="images/5.png" alt="thumbnail_1" />
+            <img src="images/1.png" alt="thumbnail_1" />
             <div class="thumbnail-description">
               <h3 class="thumbnail-title">
                 How to Get a Job at the Big 4 - Amazon, Facebook, Google...
