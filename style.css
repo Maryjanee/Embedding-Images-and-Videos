@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-/* Basic resets */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +7,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* General styles */
 li {
   list-style: none;
 }
@@ -33,7 +31,6 @@ button {
   cursor: pointer;
 }
 
-/* Navigation Styles */
 nav {
   width: 100%;
   padding: 1rem;
@@ -43,19 +40,21 @@ nav {
   width: 8rem;
 }
 
-/* Form Styles */
 #search-field {
   width: 30rem;
   padding: 0.5rem;
 }
+
 #search-field:hover {
   border: 1px solid blue;
 }
+
 #search-btn {
   padding: 0.5rem;
   width: 5rem;
   background: #d3d3d3;
 }
+
 #search {
   width: 1rem;
 }
@@ -64,19 +63,17 @@ nav {
   margin-right: 1.5rem;
   width: 24px;
 }
+
 #avatar {
   margin-right: 0;
 }
 
-/*Main Styles */
 #main-container {
   padding: 2rem 6rem;
-
   display: flex;
   justify-content: space-between;
 }
 
-/* Video-container */
 #video-section-wrapper {
   width: 70%;
 }
@@ -86,17 +83,21 @@ nav {
   width: 100%;
   height: 32rem;
 }
+
 #video-container iframe {
   width: 100%;
   height: 100%;
 }
+
 #views {
   color: grey;
   font-size: 0.9rem;
 }
+
 time {
   margin-left: 0.3rem;
 }
+
 #share {
   border: 0;
   font-size: 1rem;
@@ -117,6 +118,7 @@ time {
   padding: 0.9rem;
   margin-right: 1rem;
 }
+
 #subscribe-btn {
   padding: 0.8rem 1.3rem;
   background-color: #c00;
@@ -126,19 +128,23 @@ time {
   border: 0;
   font-size: 0.9rem;
 }
+
 #tags-videos {
   padding: 0 3.2rem;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
+
 #video-description {
   margin: 1.2rem 0;
 }
+
 .video-icons-container {
   display: flex;
   align-items: center;
   margin-right: 1.5rem;
 }
+
 .video-icons {
   width: 1.2rem;
   margin-right: 0.6rem;
@@ -152,18 +158,20 @@ time {
   padding-left: 3.2rem;
 }
 
-/* aside styles */
 aside {
   width: 28%;
 }
+
 #aside-title {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
+
 .thumbnail-container {
   margin-bottom: 0.4rem;
 }
+
 .thumbnail-description {
   margin-left: 1rem;
   margin-top: 0;
@@ -174,21 +182,26 @@ aside {
   font-weight: 500;
   margin-top: 0;
 }
+
 .thumbnail-text {
   font-size: 0.8rem;
   color: grey;
 }
+
 p img {
   margin-left: 1rem;
 }
+
 #first-video {
   border-bottom: 1px solid grey;
   padding-bottom: 0.6rem;
 }
+
 #title-sub {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
 #sub_nom {
   font-size: 0.8rem;
 }

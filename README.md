@@ -22,10 +22,14 @@ This project was created to strengthen knowledge of enmbedding images and videos
 👤 **Maryjane**
 
 - Github: [@maryjane](https://github.com/maryjanee)
+- Twitter: [@AlfredMaryjane](https://twitter.com/AlfredMaryjane)
+- Linkedin: [Maryjane Akpagbue](https://www.linkedin.com/in/maryjane-akpagbue-1500b7173/)
 
 👤 **Razika**
 
 - Github: [@rahalrazika](https://github.com/rahalrazika)
+- Twitter: [@RereRere055](https://twitter.com/RereRere055)
+- Linkedin: [Razika Rahal](https://www.linkedin.com/in/razika-rahal-85539bbb/)
 
 ## 🤝 Contributing
 
