@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Embedding Images and Videos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="d-flex">
+        <img id="logo" src="images/youtube.svg" alt="youtube-icon" />
+
+        <form>
+          <input type="text" id="search-field" placeholder="search" />
+          <button class="icons" id="search-btn" type="submit">
+            <img id="search" src="images/search.svg" alt="search" />
+          </button>
+        </form>
+
+        <div id="nav-links-container" class="d-flex">
+          <img class="icons" src="images/video-camera.svg" alt="video-camera" />
+          <img class="icons" src="images/menu.svg" alt="menu" />
+          <img class="icons" src="images/notification.svg" alt="notification" />
+          <img id="avatar" class="icons" src="images/user.svg" alt="user" />
+        </div>
+      </nav>
+    </header>
+    <main id="main-container">
+      <section id="video-section-wrapper">
+        <div id="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;
+          picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+          <div>
+            <div id="title-container">
+              <h2>Contributing to Open Source Part I: The Easy Way</h2>
+              <div class="d-flex">
+                <p id="views">
+                  57 231 vues<time datetime="2014-02-24"
+                    >• 27 February, 2014</time
+                  >
+                </p>
+                <div class="d-flex">
+                  <div class="video-icons-container">
+                    <img class="video-icons" src="images/like.svg" alt="like" />
+                    <p>422</p>
+                  </div>
+                  <div class="video-icons-container">
+                    <img
+                      class="video-icons"
+                      src="images/dislike.svg"
+                      alt="dislike"
+                    />
+                    <p>18</p>
+                  </div>
+                  <button id="share" class="video-icons-container">
+                    <img
+                      class="video-icons"
+                      src="images/share.svg"
+                      alt="share"
+                    />
+                    share
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="video-description">
+              <div class="d-flex">
+                <div class="video-avatar d-flex">
+                  <p id="profile-icon">T</p>
+                  <div>
+                    <p id="title-sub">The Odin Project</p>
+                    <p id="sub_nom">988 subscribers</p>
+                  </div>
+                </div>
+                <button id="subscribe-btn" type="button">
+                  subscribe
+                </button>
+              </div>
+
+              <p id="tags-videos">
+                How do you contribute to open source? In this video, I'll
+                describe the easiest way to make a simple contribution to an
+                open source project -- without using the command line, a text
+                editor, "forking a repo", or even touching Git outside of
+                Github. I'll also describe what kinds of contributions open
+              </p>
+              <a id="show">Show More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div id="aside-title">
+          <p>Up next</p>
+          <p class="icons d-flex">
+            Autoplay<img class="icons" src="images/switch.svg" alt="switch" />
+          </p>
+        </div>
+        <div class="thumbnail-container">
+          <div id="first-video" class="thumbnail d-flex">
+            <img src="images/1.png" alt="thumbnail_1" />
+            <div class="thumbnail-description">
+              <h3 class="thumbnail-title">
+                How to Get a Job at the Big 4 - Amazon, Facebook, Google...
+              </h3>
+              <p class="thumbnail-text">SJ Tech</p>
+              <p class="thumbnail-text">7.6k views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail-container">
+          <div class="thumbnail d-flex">
+            <img src="images/2.png" alt="thumbnail_1" />
+            <div class="thumbnail-description">
+              <h3 class="thumbnail-title">
+                HTML & CSS Crash Course Tutorial #8 - CSS Layout & Position
+              </h3>
+              <p class="thumbnail-text">The Net Ninja</p>
+              <p class="thumbnail-text">2.1 M views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail-container">
+          <div class="thumbnail d-flex">
+            <img src="images/3.png" alt="thumbnail_1" />
+            <div class="thumbnail-description">
+              <h3 class="thumbnail-title">
+                Contributing to Open Source Part II: The Real Way
+              </h3>
+              <p class="thumbnail-text">SJ Tech</p>
+              <p class="thumbnail-text">7.6k views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail-container">
+          <div class="thumbnail d-flex">
+            <img src="images/4.png" alt="thumbnail_1" />
+            <div class="thumbnail-description">
+              <h3 class="thumbnail-title">
+                HTML & CSS Crash Course Tutorial #7 - Chrome Dev Tool
+              </h3>
+              <p class="thumbnail-text">SJ Tech</p>
+              <p class="thumbnail-text">7.6k views</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail-container">
+          <div class="thumbnail d-flex">
+            <img src="images/5.png" alt="thumbnail_1" />
+            <div class="thumbnail-description">
+              <h3 class="thumbnail-title">
+                Learn Python - Full Course for Beginners [Tutorial]
+              </h3>
+              <p class="thumbnail-text">freeCodeCamp.org</p>
+              <p class="thumbnail-text">3.1 M views</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
